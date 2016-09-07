@@ -25,7 +25,7 @@ url: "http://productdubai.com" # the base hostname & protocol for your site
 
 # Folders
 source: ./source
-destination: ./public
+destination: ./_site
 plugins_dir: ./plugins  # path relative to root folder
 layouts_dir: ./_layouts # path relative to source
 
