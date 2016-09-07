@@ -24,10 +24,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://productdubai.com" # the base hostname & protocol for your site
 
 # Folders
-source: ./source
-destination: ./_site
-plugins_dir: ./plugins  # path relative to root folder
-layouts_dir: ./_layouts # path relative to source
+# source: ./source
+# destination: ./_site
+# plugins_dir: ./plugins  # path relative to root folder
+# layouts_dir: ./_layouts # path relative to source
 
 # Build settings
 markdown: kramdown
