@@ -31,7 +31,7 @@ layouts_dir: ./_layouts # path relative to source
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: minima
 
 
 # Team names, titles and social links
