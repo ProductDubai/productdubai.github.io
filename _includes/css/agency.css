@@ -172,11 +172,11 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: #000000;
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.data.template.color.primary }};
 }
 
@@ -233,9 +233,8 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:768px) {
     .navbar-default {
-        padding: 25px 0;
+        padding: 10px 0;
         border: 0;
-        background-color: transparent;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -258,7 +257,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
+        font-size: 2em;
     }
 }
 
@@ -309,6 +308,7 @@ header .intro-text .intro-heading {
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
+        background-color: #000000;
     }
 
     header .intro-text .intro-heading {
